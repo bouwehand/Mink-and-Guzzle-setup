@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<products>
+    <request_id>SB3_189733</request_id>
+    <version>v.1.5.23</version>
+    <product>
+        <sku>100060</sku>
+        <category_erp_ids>1001,2000</category_erp_ids>
+        <price>310.36</price>
+        <currency>EUR</currency>
+        <tax_class></tax_class>
+        <qty_increments>1</qty_increments>
+        <min_sale_qty>1</min_sale_qty>
+        <enabled>1</enabled>
+        <sales_organization_enabled>7850</sales_organization_enabled>
+        <default_image_filename>file0001.jpg</default_image_filename>
+        <image_filenames>
+            <image_filename>file0001.jpg</image_filename>
+            <image_filename>file0002.jpg</image_filename>
+        </image_filenames>
+        <dimension>1</dimension>
+        <dimension_unit>MM</dimension_unit>
+        <height>0</height>
+        <standard_length>6</standard_length>
+	    <selling_length>6</selling_length>
+        <standard_width></standard_width>
+        <alternative_product_ids>100020,100021,100022,100023,100024</alternative_product_ids>
+        <certificate>2.2</certificate>
+        <article_category>2</article_category>
+        <material_group>006</material_group>
+        <packaging>Standard packaging</packaging>
+        <language code="nl">
+            <name>Oberon - 1 l - (12588)</name>
+            <explanation_text>text</explanation_text>
+            <description>product omschrijving</description>
+            <short_description>Oberon - 1 l - (12588)</short_description>
+            <product_groupname> Oberon </product_groupname>
+	        <certificate_code>E22</certificate_code>
+            <price_unit>stuks</price_unit>
+            <base_unit>meter</base_unit>
+            <order_unit>stuks</order_unit>
+            <order_unit_conversion>37.5</order_unit_conversion>
+            <selling_unit>meter</selling_unit>
+            <selling_unit_conversion>12</selling_unit_conversion>
+            <selling_quantity_conversion>6</selling_quantity_conversion>
+        </language>
+        <language code="en">
+            <name>Oberon - 1 l - (12588)</name>
+            <explanation_text>text</explanation_text>
+            <description>product description</description>
+            <short_description>Oberon - 1 l - (12588)</short_description>
+            <product_groupname> Oberon </product_groupname>
+	    <certificate_code>E22</certificate_code>
+            <price_unit>pieces</price_unit>
+            <base_unit>meter</base_unit>
+            <order_unit>pieces</order_unit>
+            <order_unit_conversion>37.5</order_unit_conversion>
+            <selling_unit>meter</selling_unit>
+            <selling_unit_conversion>12</selling_unit_conversion>
+        </language>
+        <available_modifications>
+            <language code="EN">
+                <modification>
+                    <code>N001</code>
+                    <groupcode>1</groupcode>
+                    <groupname>Sawing</groupname>
+                    <name>Sawing</name>
+                </modification>
+                <modification>
+                    <code>N056</code>
+                    <groupcode>2</groupcode>
+                    <groupname>STRALEN</groupname>
+                    <name>STRALEN EN LASVERVEN 1X ROOD</name>
+                </modification>
+            </language>
+            <language code="NL">
+                <modification>
+                    <code>N001</code>
+                    <groupcode>1</groupcode>
+                    <groupname>ZAGEN</groupname>
+                    <name>ZAGEN</name>
+                </modification>
+                <modification>
+                    <code>N056</code>
+                    <groupcode>2</groupcode>
+                    <groupname>STRALEN</groupname>
+                    <name>STRALEN EN LASVERVEN 1X ROOD</name>
+                </modification>
+            </language>
+        </available_modifications>
+        <specifications>
+            <specification>
+                <name>Material</name>
+                <value>Aluminium</value>
+                <id>MT_70</id>
+            </specification>
+            <specification>
+                <name>Quality</name>
+                <value>6082</value>
+                <id>QT_23</id>
+            </specification>
+        </specifications>
+    </product>
+</products>

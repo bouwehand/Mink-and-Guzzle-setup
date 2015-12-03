@@ -22,9 +22,9 @@ class CustomHttp
     protected $_login_url = 'http://itsme.pimcore.local/admin/login/login';
 
     protected $_login_data = array(
-        "username" => "admin",
-        "password" => "P!mcore",
-        "submit" => 'login'
+        "username" =>   "admin",
+        "password" =>   "P!mcore",
+        "submit" =>     'login'
     );
 
     /**
@@ -33,7 +33,6 @@ class CustomHttp
     public function __construct()
     {
         $cookiePlugin = new CookiePlugin(new FileCookieJar(ROOT . '/cookie.json'));
-
         $this->_client = new Client(
             null,
             array(
@@ -64,5 +63,27 @@ class CustomHttp
         return false;
     }
     
+    public function sendGetMetaData() 
+    {
+        $url = 'http://itsme.pimcore.local/plugin/Assembler/index/metadata';
+        $data = '{
+            "some_object" : "json object"
+        }';
+clear()
+        $request = $this->_client->post($url,array(
+                'content-type' => 'application/json'
+            ),array());
+        $request->setBody($data); #set body!
+        return $request->send();
+    }
 
+    /**
+     * Serve the xml for testing
+     */
+    public static function getProducts()
+    {
+        $xml = file_get_contents(ROOT.'/tmp/GetProducts_v1.5.23.xml');
+        header("Content-Type:text/xml");
+        die($xml);
+    }
 }
